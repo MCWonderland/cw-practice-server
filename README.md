@@ -6,6 +6,9 @@
 ### 注意事項
 - 伺服器主要插件 StrikePractice 為付費插件，因此不附於本 repo 中，請自行至 SpigotMC 購買。[(連結)](https://www.spigotmc.org/resources/46906/)
 
+### 致謝
+- [CJMo](https://github.com/Cao-JF) 提供訊息翻譯與美化
+
 ### 系統節圖
 - 各種不同傷害的練習模式
 ![](https://imgur.com/KeroTff.png)
