@@ -1,0 +1,63 @@
+language-items:
+  - ==: LanguageItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa79\xa7lEnglish"
+    language: English
+    slot: 9
+  - ==: LanguageItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa79\xa7lEspañol "
+    language: spanish
+    slot: 10
+  - ==: LanguageItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa79\xa7lFran\xe7ais"
+    language: "fran\xe7ais"
+    slot: 11
+  - ==: LanguageItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa79\xa7lItaliano"
+    language: italiano
+    slot: 12
+  - ==: LanguageItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa79\xa7lNederlands"
+    language: nederlands
+    slot: 13
+  - ==: LanguageItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 11
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa79\xa7lSuomi"
+    language: suomi
+    slot: 15

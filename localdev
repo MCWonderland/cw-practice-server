@@ -1,0 +1,3 @@
+docker build -t cw-practice . 
+docker rm -f cw-practice
+docker run -p 25581:25565 --name cw-practice -it -d cw-practice 

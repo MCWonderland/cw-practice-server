@@ -1,0 +1,172 @@
+{
+  "ranked": {
+    "username": "Fights",
+    "avatar_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6a/Diamond_Sword_JE2_BE2.png",
+    "content": "",
+    "embeds": [
+      {
+        "author": {
+          "name": "StrikePractice",
+          "url": "https://spigotmc.org/resources/46906/",
+          "icon_url": "https://www.spigotmc.org/data/resource_icons/46/46906.jpg?1504887513"
+        },
+        "title": "Ranked Fight",
+        "url": "https://stats.strikepractice.ga/fight/<fight_id>/",
+        "description": "",
+        "color": 15258703,
+        "fields": [
+          {
+            "name": "Winner",
+            "value": "<winner>",
+            "inline": true
+          },
+          {
+            "name": "Loser",
+            "value": "<loser>",
+            "inline": true
+          },
+          {
+            "name": "Duration",
+            "value": "<duration>",
+            "inline": true
+          },
+          {
+            "name": "Arena",
+            "value": "<arena>",
+            "inline": true
+          },
+          {
+            "name": "Kit",
+            "value": "<kit>",
+            "inline": true
+          },
+          {
+            "name": "Elo Changes",
+            "value": "±<elo_changes>",
+            "inline": true
+          }
+        ],
+        "thumbnail": {
+          "url": "https://example.com/icons/arenas/<arena>.png"
+        },
+        "image": {
+          "url": ""
+        },
+        "footer": {
+          "text": "StrikePractice - Discord Webhooks",
+          "icon_url": "https://www.spigotmc.org/data/resource_icons/46/46906.jpg?1504887513"
+        }
+      }
+    ]
+  },
+  "unranked": {
+    "username": "Fights",
+    "avatar_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6a/Diamond_Sword_JE2_BE2.png",
+    "content": "",
+    "embeds": [
+      {
+        "author": {
+          "name": "StrikePractice",
+          "url": "https://spigotmc.org/resources/46906/",
+          "icon_url": "https://www.spigotmc.org/data/resource_icons/46/46906.jpg?1504887513"
+        },
+        "title": "Unranked Fight",
+        "url": "https://stats.strikepractice.ga/fight/<fight_id>/",
+        "description": "",
+        "color": 15258703,
+        "fields": [
+          {
+            "name": "Winner",
+            "value": "<winner>",
+            "inline": true
+          },
+          {
+            "name": "Loser",
+            "value": "<loser>",
+            "inline": true
+          },
+          {
+            "name": "Duration",
+            "value": "<duration>",
+            "inline": true
+          },
+          {
+            "name": "Arena",
+            "value": "<arena>",
+            "inline": true
+          },
+          {
+            "name": "Kit",
+            "value": "<kit>",
+            "inline": true
+          }
+        ],
+        "thumbnail": {
+          "url": "https://example.com/icons/arenas/<arena>.png"
+        },
+        "image": {
+          "url": ""
+        },
+        "footer": {
+          "text": "StrikePractice - Discord Webhooks",
+          "icon_url": "https://www.spigotmc.org/data/resource_icons/46/46906.jpg?1504887513"
+        }
+      }
+    ]
+  },
+  "botduel": {
+    "username": "Fights",
+    "avatar_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6a/Diamond_Sword_JE2_BE2.png",
+    "content": "",
+    "embeds": [
+      {
+        "author": {
+          "name": "StrikePractice",
+          "url": "https://spigotmc.org/resources/46906/",
+          "icon_url": "https://www.spigotmc.org/data/resource_icons/46/46906.jpg?1504887513"
+        },
+        "title": "Bot Fight",
+        "url": "",
+        "description": "",
+        "color": 15258703,
+        "fields": [
+          {
+            "name": "Winner",
+            "value": "<winner>",
+            "inline": true
+          },
+          {
+            "name": "Loser",
+            "value": "<loser>",
+            "inline": true
+          },
+          {
+            "name": "Duration",
+            "value": "<duration>",
+            "inline": true
+          },
+          {
+            "name": "Arena",
+            "value": "<arena>",
+            "inline": true
+          },
+          {
+            "name": "Kit",
+            "value": "<kit>",
+            "inline": true
+          }
+        ],
+        "thumbnail": {
+          "url": "https://example.com/icons/arenas/<arena>.png"
+        },
+        "image": {
+          "url": ""
+        },
+        "footer": {
+          "text": "StrikePractice - Discord Webhooks",
+          "icon_url": "https://www.spigotmc.org/data/resource_icons/46/46906.jpg?1504887513"
+        }
+      }
+    ]
+  }
+}

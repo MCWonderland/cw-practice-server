@@ -1,0 +1,1025 @@
+kits:
+- ==: BattleKit
+  types: BRACKETS, LMS, ANY
+  pearl-cooldown: 0
+  editable: true
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e經典 Pot §7(NoDebuff)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  chest-access: true
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 2
+        DURABILITY: 3
+        FIRE_ASPECT: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8259
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+  name: nodebuff
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+        PROTECTION_FALL: 4
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+- ==: BattleKit
+  no-hunger: true
+  types: QUEUE, ANY
+  pearl-cooldown: 0
+  editable: true
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e低傷害練習 §7(Diamond)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+  build: true
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+  name: lowdamage
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 1
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 1
+- ==: BattleKit
+  no-hunger: true
+  types: QUEUE, ANY
+  pearl-cooldown: 0
+  editable: true
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e中傷害練習 §7(Builder)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    amount: 0
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 0
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+    amount: 0
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+    amount: 0
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  build: true
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    amount: 0
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  name: mediumdamage
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    amount: 0
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+    amount: 0
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+- ==: BattleKit
+  no-hunger: true
+  types: QUEUE, ANY
+  pearl-cooldown: 0
+  editable: true
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e高傷害練習 §7(Jumper)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  build: true
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  name: highdamage
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+- ==: BattleKit
+  no-hunger: true
+  types: QUEUE, ANY
+  pearl-cooldown: 0
+  editable: true
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e極高傷害練習 §7(Bard)
+      enchants:
+        DURABILITY: 1
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+        DURABILITY: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  build: true
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  name: epicdamage
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+- ==: BattleKit
+  no-hunger: true
+  types: QUEUE, ANY
+  pearl-cooldown: 0
+  editable: true
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: FIREBALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e魔鬼訓練 §7(Strength)
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+        DURABILITY: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 8226
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  build: true
+  potions:
+  - ==: PotionEffect
+    effect: 5
+    duration: 19998393
+    amplifier: 0
+    ambient: false
+    has-particles: true
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  name: quickdrop
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3

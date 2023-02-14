@@ -1,0 +1,960 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -2192.510911223765
+    y: 35.0
+    z: -13.177242169412581
+    pitch: 0.30489397
+    yaw: -180.05771
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -2133.364019429217
+    y: 90.0
+    z: -115.12697961849332
+    pitch: 38.34909
+    yaw: 0.54385376
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -2250.98029405139
+    y: 16.55154904608514
+    z: 2.7038793380405126
+    pitch: 3.7127993
+    yaw: -134.79384
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -2192.581282027088
+    y: 35.0
+    z: -98.17330001421045
+    pitch: 1.7185848
+    yaw: -0.010594467
+  display-name: §a經典平原§7[§e§l中央§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -2191.5058627354156
+    y: 63.99055275568363
+    z: -53.813075415527635
+    pitch: 17.471405
+    yaw: 180.1191
+  name: plainscentertop
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GRASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a經典平原§7[§e§l中央§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1480.0136854974285
+    y: 75.0
+    z: 6.041389958323084
+    pitch: 1.8178208
+    yaw: -332.5774
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -1500.455088179525
+    y: 91.4993606080002
+    z: -0.47676753157854357
+    pitch: 36.52957
+    yaw: 318.13428
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1460.7358269294773
+    y: 41.403162938135175
+    z: 39.060130735129164
+    pitch: 1.2117724
+    yaw: 133.28333
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1495.0358096718069
+    y: 85.0
+    z: 15.573217051573433
+    pitch: 2.6760015
+    yaw: -81.98508
+  display-name: §b凍土高丘§7[§b§l堡壘§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1485.819415646647
+    y: 75.0
+    z: 14.391254507942431
+    pitch: 2.1965964
+    yaw: -89.4592
+  name: icemountainbase
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: ICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b凍土高丘§7[§b§l堡壘§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: 468.54490483216875
+    y: 30.0
+    z: -581.6619121364981
+    pitch: 2.3992004
+    yaw: 359.94476
+  corner1:
+    ==: Location
+    world: Arenas
+    x: 501.93804559003655
+    y: 90.0
+    z: -591.404080735511
+    pitch: 14.213473
+    yaw: 49.77115
+  corner2:
+    ==: Location
+    world: Arenas
+    x: 398.36617889419284
+    y: 23.000351076228824
+    z: -497.6691039093376
+    pitch: -20.296186
+    yaw: -130.4528
+  loc1:
+    ==: Location
+    world: Arenas
+    x: 468.42065482135007
+    y: 30.0
+    z: -503.74048260368096
+    pitch: 1.1369386
+    yaw: 180.24237
+  display-name: §2墮雲遺殿§7[§e§l中央§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: 451.03755242225446
+    y: 86.86555327810206
+    z: -540.6060306367406
+    pitch: 39.660545
+    yaw: 180.44708
+  name: junglecenter
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEAVES
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2墮雲遺殿§7[§e§l中央§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -503.784453544115
+    y: 100.0
+    z: -1501.661100536531
+    pitch: 6.9936953
+    yaw: 229.60117
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -475.05172476190467
+    y: 76.58586326586673
+    z: -1471.0137720969883
+    pitch: 12.396186
+    yaw: 136.87207
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -523.7213932850868
+    y: 141.0
+    z: -1515.4314418203996
+    pitch: 53.24254
+    yaw: 317.52753
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -499.52781869644184
+    y: 90.0
+    z: -1499.4181135153424
+    pitch: -0.68077266
+    yaw: 245.52252
+  display-name: §e乾燥沙谷§7[§b§l堡壘§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -499.52780342374376
+    y: 92.15479423108853
+    z: -1499.1345159597329
+    pitch: 2.626235
+    yaw: 180.91876
+  name: desertbase
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SANDSTONE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e乾燥沙谷§7[§b§l堡壘§7]
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -418.18627517793556
+    y: 72.0
+    z: -535.4470608966628
+    pitch: 1.3377962
+    yaw: 85.36079
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -500.6944104302372
+    y: 95.0
+    z: -563.5736969402371
+    pitch: 23.730148
+    yaw: 273.9405
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -396.5679501721339
+    y: 57.219732637806516
+    z: -497.5303918358762
+    pitch: -35.393562
+    yaw: 137.92188
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -490.75945161646644
+    y: 81.0
+    z: -535.4898132351456
+    pitch: 20.776402
+    yaw: 298.8814
+  display-name: §a經典平原§7[§3§l家礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -459.37915311468214
+    y: 74.86344085737893
+    z: -532.5082866828336
+    pitch: 12.01636
+    yaw: 194.46948
+  name: plainsbasecave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GRASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a經典平原§7[§3§l家礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -2295.6843925996423
+    y: 90.0
+    z: 238.6332865565615
+    pitch: 3.5344617
+    yaw: 286.2595
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -2195.235053403746
+    y: 112.0
+    z: 284.5846406429664
+    pitch: 19.135878
+    yaw: 127.03238
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -2310.6324586483233
+    y: 81.20000004768372
+    z: 216.38798623337917
+    pitch: -19.413204
+    yaw: -37.640293
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -2210.9793144817186
+    y: 90.0
+    z: 261.12981057881063
+    pitch: 1.9945269
+    yaw: 104.193146
+  display-name: §a經典平原§7[§6§l中礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -2252.8445469149397
+    y: 94.36445617881311
+    z: 254.78409922888986
+    pitch: 8.053319
+    yaw: 179.32262
+  name: plainscentercave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GRASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a經典平原§7[§6§l中礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: 1022.546957767065
+    y: 6.0
+    z: -1436.861970844188
+    pitch: 4.3168235
+    yaw: 291.55444
+  corner1:
+    ==: Location
+    world: Arenas
+    x: 999.3812643895906
+    y: 90.0
+    z: -1500.5568671679591
+    pitch: 22.164873
+    yaw: 320.32947
+  corner2:
+    ==: Location
+    world: Arenas
+    x: 1092.407930069398
+    y: -2.8661212119830735
+    z: -1378.0919071018984
+    pitch: 5.528986
+    yaw: 138.49396
+  loc1:
+    ==: Location
+    world: Arenas
+    x: 1064.898172987323
+    y: 5.0
+    z: -1418.365189632793
+    pitch: -1.4642284
+    yaw: 113.95656
+  display-name: §e乾燥沙谷§7[§6§l中礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: 1046.6334409569947
+    y: 9.237619056134957
+    z: -1437.6770351185455
+    pitch: 11.562113
+    yaw: 20.798798
+  name: desertcentercave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SANDSTONE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e乾燥沙谷§7[§6§l中礦§7]
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: 576.5617107914975
+    y: 39.0
+    z: -1432.3256460435384
+    pitch: -0.023605322
+    yaw: 86.136406
+  corner1:
+    ==: Location
+    world: Arenas
+    x: 499.31550127773414
+    y: 94.89041756773264
+    z: -1501.526185002167
+    pitch: 28.730383
+    yaw: -28.298883
+  corner2:
+    ==: Location
+    world: Arenas
+    x: 590.9995934466683
+    y: -1.820323252302249
+    z: -1379.7102516717298
+    pitch: 2.551508
+    yaw: 142.56903
+  loc1:
+    ==: Location
+    world: Arenas
+    x: 515.1717018747737
+    y: 39.0
+    z: -1431.9124233118048
+    pitch: 0.052074213
+    yaw: 270.85446
+  display-name: §e乾燥沙谷§7[§e§l中央§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: 546.7599693525128
+    y: 69.59546589039378
+    z: -1444.2983353356983
+    pitch: 57.383495
+    yaw: 0.025575913
+  name: desertcenter
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SANDSTONE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e乾燥沙谷§7[§e§l中央§7]
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1468.9963952520334
+    y: 38.0
+    z: -499.97074835114637
+    pitch: 2.7014096
+    yaw: 88.0169
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -1563.5604063588144
+    y: 172.0
+    z: -544.5943709733561
+    pitch: 19.11213
+    yaw: 317.82877
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1433.894033380492
+    y: 20.0
+    z: -453.0264992301771
+    pitch: 4.470658
+    yaw: 135.89102
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1530.0570600755334
+    y: 38.0
+    z: -497.6072508325716
+    pitch: 3.8373234
+    yaw: -90.24468
+  display-name: §b凍土高丘§7[§e§l中央§f+§6§l中礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1499.6514061588466
+    y: 49.5
+    z: -497.4781940204149
+    pitch: 12.748924
+    yaw: 91.34932
+  name: icemountaincenterboth
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: ICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b凍土高丘§7[§e§l中央§f+§6§l中礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1565.4286457063026
+    y: 119.0
+    z: -1416.143393459578
+    pitch: 2.3242948
+    yaw: -180.30173
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -1498.6319423732257
+    y: 190.0
+    z: -1501.630451440272
+    pitch: 22.848251
+    yaw: 42.15799
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1630.627708902909
+    y: 58.494498970848824
+    z: -1411.451936764648
+    pitch: -2.4221554
+    yaw: 224.9813
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1565.4209064755985
+    y: 118.0
+    z: -1498.354780019839
+    pitch: -0.9323375
+    yaw: -0.052266523
+  display-name: §b寒洞山坳§7[§e§l中央§f+§6§l中礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1565.497820352437
+    y: 120.2409930474721
+    z: -1456.3201728973343
+    pitch: 8.6860285
+    yaw: 181.91962
+  name: snowcenter
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SNOW_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b寒洞山坳§7[§e§l中央§f+§6§l中礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -530.0675728950066
+    y: 94.0
+    z: -30.218347014161917
+    pitch: 1.6154883
+    yaw: -44.272408
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -538.6978912688135
+    y: 185.0
+    z: -38.66580360324009
+    pitch: 57.711693
+    yaw: -4.4679265
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -497.0197687675839
+    y: 81.46007771428184
+    z: 2.8509742369612034
+    pitch: -8.076759
+    yaw: 134.93489
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -531.2775353358936
+    y: 103.0
+    z: -29.84192370080094
+    pitch: 2.5243435
+    yaw: -16.856424
+  display-name: §a經典平原§7[§b§l堡壘§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -523.582626460181
+    y: 96.21723179307465
+    z: -23.881842551939794
+    pitch: 7.295592
+    yaw: -0.6744952
+  name: plainsbase
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GRASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a經典平原§7[§b§l堡壘§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -50.17639657063764
+    y: 68.0
+    z: -1489.3012099153482
+    pitch: 3.6607046
+    yaw: -143.73743
+  corner1:
+    ==: Location
+    world: Arenas
+    x: 2.691173565785554
+    y: 91.25717623314303
+    z: -1467.9569099986245
+    pitch: 9.542961
+    yaw: 142.7666
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -67.02563199223556
+    y: 50.06830624087054
+    z: -1537.7152556503615
+    pitch: 5.9075646
+    yaw: -46.26701
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -25.0445490205308
+    y: 70.0
+    z: -1515.9826838903991
+    pitch: 10.603046
+    yaw: 49.159267
+  display-name: §e乾燥沙谷§7[§3§l家礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -44.242977378202234
+    y: 70.11163305637575
+    z: -1517.9125040792192
+    pitch: 9.769954
+    yaw: -32.83592
+  name: desertbasecave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SANDSTONE
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e乾燥沙谷§7[§3§l家礦§7]
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1069.0207756176542
+    y: 47.0
+    z: -1533.6280278993331
+    pitch: -20.624443
+    yaw: -133.23326
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -995.800252817694
+    y: 92.99071096627246
+    z: -1571.2070573551375
+    pitch: 33.172295
+    yaw: 43.963562
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1100.2813354160119
+    y: 18.96611184434396
+    z: -1496.0366878869477
+    pitch: 5.9829917
+    yaw: -133.7608
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1038.2807842827058
+    y: 61.0
+    z: -1564.9705044701552
+    pitch: 3.4589777
+    yaw: 23.259846
+  display-name: §b寒洞山坳§7[§3§l家礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1064.8887410978152
+    y: 64.08145146727864
+    z: -1533.6767159621222
+    pitch: 14.415528
+    yaw: 177.03677
+  name: snowbasecave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SNOW_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b寒洞山坳§7[§3§l家礦§7]
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1508.7419632684182
+    y: 78.0
+    z: 932.065777753839
+    pitch: 1.9456999
+    yaw: 82.37305
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -1597.700191778184
+    y: 93.0
+    z: 915.340600210953
+    pitch: 2.4001403
+    yaw: -45.56811
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1494.7967758947104
+    y: 64.1309243537545
+    z: 1004.0155836473008
+    pitch: 1.9455389
+    yaw: 133.77118
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1576.9058486884849
+    y: 77.0
+    z: 939.7523925252302
+    pitch: 3.1068988
+    yaw: 263.91562
+  display-name: §2墮雲遺殿§7[§3§l家礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1534.601498157306
+    y: 79.40287746713464
+    z: 940.0265538935524
+    pitch: 8.963815
+    yaw: 74.648315
+  name: junglebasecave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEAVES
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2墮雲遺殿§7[§3§l家礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1463.9852637703493
+    y: 68.0
+    z: -990.497970547477
+    pitch: 0.58060145
+    yaw: -67.86247
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -1502.2365341125667
+    y: 92.00957163570078
+    z: -1004.2221432077573
+    pitch: 27.945799
+    yaw: -46.413757
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1392.3010072613426
+    y: 56.90945357093712
+    z: -944.8686847365252
+    pitch: 2.2463484
+    yaw: 131.01665
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1414.7728231212081
+    y: 68.0
+    z: -971.6874247599335
+    pitch: 3.1808467
+    yaw: 106.88305
+  display-name: §b凍土高丘§7[§3§l家礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1434.1553056262728
+    y: 70.49264882088949
+    z: -975.826592060096
+    pitch: 7.270552
+    yaw: -71.19519
+  name: icemountainbasecave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: ICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b凍土高丘§7[§3§l家礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: 21.382280252983737
+    y: 40.0
+    z: -469.47196497040704
+    pitch: 2.701274
+    yaw: 181.85051
+  corner1:
+    ==: Location
+    world: Arenas
+    x: 0.399219346856502
+    y: 90.0
+    z: -499.828870310374
+    pitch: 44.759304
+    yaw: 358.17902
+  corner2:
+    ==: Location
+    world: Arenas
+    x: 46.56189831480837
+    y: 17.627987070590823
+    z: -453.42840707913945
+    pitch: -13.329642
+    yaw: 135.51886
+  loc1:
+    ==: Location
+    world: Arenas
+    x: 21.550606489090114
+    y: 28.0
+    z: -461.4123844512319
+    pitch: -0.7066483
+    yaw: -180.1446
+  display-name: §2墮雲遺殿§7[§b§l堡壘§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: 21.620697311452325
+    y: 30.154731793074614
+    z: -477.68617063768414
+    pitch: 4.645249
+    yaw: 0.23028564
+  name: junglebase
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEAVES
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2墮雲遺殿§7[§b§l堡壘§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: Arenas
+    x: -1543.4369834311644
+    y: 92.0
+    z: 478.5632067842972
+    pitch: 3.2829945
+    yaw: 295.45868
+  corner1:
+    ==: Location
+    world: Arenas
+    x: -1548.4456978737514
+    y: 135.0
+    z: 529.7360764972836
+    pitch: 29.841148
+    yaw: 220.79858
+  corner2:
+    ==: Location
+    world: Arenas
+    x: -1447.3922370313328
+    y: 75.34903991091859
+    z: 469.41662148574795
+    pitch: 2.0972958
+    yaw: 45.942017
+  loc1:
+    ==: Location
+    world: Arenas
+    x: -1453.747457295746
+    y: 92.0
+    z: 518.9173577274817
+    pitch: 5.302599
+    yaw: 112.86075
+  display-name: §2墮雲遺殿§7[§6§l中礦§7]
+  build: true
+  center:
+    ==: Location
+    world: Arenas
+    x: -1499.7554863766625
+    y: 90.36450241448402
+    z: 500.2605784747457
+    pitch: 3.282933
+    yaw: 273.14395
+  name: junglecentercave
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEAVES
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2墮雲遺殿§7[§6§l中礦§7]
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null

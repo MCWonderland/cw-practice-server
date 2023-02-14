@@ -1,0 +1,138 @@
+spawn-items:
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6小遊戲
+  name: partyfight
+  slot: 0
+  command: /party fight
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6戰隊資訊
+  name: partyinfo
+  slot: 1
+  command: /party info
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c離開
+  name: partyleave
+  slot: 8
+  command: /party leave
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c解散
+  name: partydisband
+  slot: 8
+  party-owner-only: true
+  command: /party disband
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATCH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6戰隊設定
+  name: partysettings
+  slot: 7
+  party-owner-only: true
+  command: /party settings
+  party: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: EYE_OF_ENDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e創戰隊
+  name: partycreate
+  slot: 4
+  command: /party create
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e排版
+  name: kiteditor
+  slot: 8
+  command: /kiteditor
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e野排
+  name: unranked
+  slot: 0
+  command: /unranked
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BLAZE_POWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e機器人練習
+  name: botduel
+  slot: 1
+  command: /botduel
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lLeave Queue
+  name: leavequeue
+  slot: 8
+  command: /queue leave
+  queue: true
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e觀戰
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  name: spec
+  slot: 2
+  command: /spec

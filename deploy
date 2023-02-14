@@ -1,0 +1,31 @@
+#!/bin/bash
+set -e
+
+RANDOM_DIGS=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
+GIT_HASH=$(git rev-parse --short HEAD)
+
+TAG="$GIT_HASH-$RANDOM_DIGS"
+REPO="asia-east1-docker.pkg.dev/uplifted-theory-358811/mc-server-docker"
+NAME="$REPO/cw-practice:$TAG"
+
+# target from arg 1 to last
+ALL_TARGETS=${@:1}
+
+if [ -z "$ALL_TARGETS" ]; then
+  echo "使用方式：./deploy.sh [GCP機器1] [GCP機器2] ..."
+  exit 1
+fi
+
+docker buildx build --platform linux/amd64 -t $NAME . --push
+
+#foreach target
+for TARGET in $ALL_TARGETS; do
+  echo "Deploying to $TARGET"
+  gcloud compute instances start $TARGET
+  gcloud compute ssh $TARGET --command 'docker rm -f $(docker ps -aq) && docker volume rm $(docker volume ls -q) && docker rmi -f $(docker images -q)'
+  gcloud compute instances update-container $TARGET --container-image=$NAME
+done
+
+for TARGET in $ALL_TARGETS; do
+  echo "機器 $TARGET 已放上最新的 Docker Image，IP: $(gcloud compute instances describe $TARGET --format='get(networkInterfaces[0].accessConfigs[0].natIP)')"
+done
